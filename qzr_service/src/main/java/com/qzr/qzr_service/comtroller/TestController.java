@@ -48,7 +48,7 @@ public class TestController {
         List<Dept> list = deptService.deptList();
         map.put("list",list);
         if(list!=null){
-            System.out.println("查询成功！");
+            System.out.println("查询成功!");
             return this.getJsonMap(true,"查询成功",list);
         }
         return json;
