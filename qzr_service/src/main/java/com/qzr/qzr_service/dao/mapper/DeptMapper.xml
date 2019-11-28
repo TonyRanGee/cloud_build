@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qzr.qzr_service.dao.DeptDao">
+
+        <resultMap id="DeptResult" type="com.qzr.qzr_service.entity.Dept">
+            <result property="id" column="id"/>
+            <result property="name" column="name"/>
+            <result property="sex" column="sex"/>
+            <result property="age" column="age"/>
+            <result property="content" column="content"/>
+            <result property="address" column="address"/>
+        </resultMap>
+
+        <sql id="dept_columns">
+          dept.id,
+          dept.name,
+          dept.sex,
+          dept.age,
+          dept.content,
+          dept.address
+        </sql>
+<!--
+        <select id="deptList" resultType="DeptResult" resultMap="Dept">
+            select <include refid="dept_columns"/> from dept
+        </select>
+-->
+
+</mapper>
