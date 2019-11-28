@@ -49,7 +49,7 @@ public class TestController {
         map.put("list",list);
         if(list!=null){
             System.out.println("查询成功!");
-            return this.getJsonMap(true,"查询成功",list);
+            return this.getJsonMap(true,"查询成功，整的挺好啊！",list);
         }
         return json;
     }
