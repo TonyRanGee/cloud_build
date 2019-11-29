@@ -13,7 +13,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 @RestController
 @RequestMapping("/cloud")
-public class TestController {
+public class AdminServiceController {
 
     @Autowired
     private  DeptService deptService;
@@ -21,7 +21,7 @@ public class TestController {
     public Map<String,Object>  getJsonMap(boolean success,String message,Object entity){
         Map<String,Object> json = new HashMap<>();
         json.put("success",success);
-        json.put("messzge",message);
+        json.put("message",message);
         json.put("entity",entity);
         return json;
     }

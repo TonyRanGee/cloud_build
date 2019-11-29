@@ -7,7 +7,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/TonyRanGee/CloudConfig/cloud-repo
+          uri: https://github.com/TonyRanGee/CloudConfig
+          search-paths: cloud-repo
+          default-label: master
 eureka:
   instance:
     instance-id: ${spring.cloud.client.ip-address}:${spring.application.instance_id:${server.port}}

@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/qzr_consumer/pom.xml" />
         <option value="$PROJECT_DIR$/config_server/pom.xml" />
         <option value="$PROJECT_DIR$/config_client/pom.xml" />
+        <option value="$PROJECT_DIR$/qzr_common/pom.xml" />
       </list>
     </option>
   </component>
