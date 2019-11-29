@@ -1,13 +1,13 @@
-package com.qzr.config_client;
+package com.qzr.qzr_config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ConfigClientApplication {
+public class QzrConfigApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ConfigClientApplication.class, args);
+        SpringApplication.run(QzrConfigApplication.class, args);
     }
 
 }

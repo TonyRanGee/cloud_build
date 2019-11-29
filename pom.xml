@@ -14,7 +14,6 @@
         <module>qzr_consumer</module>
         <module>qzr_producer</module>
         <module>config_server</module>
-        <module>config_client</module>
         <module>qzr_common</module>
     </modules>
 
@@ -49,6 +48,11 @@
             <artifactId>lombok</artifactId>
             <version>1.12.2</version>
             <scope>provided</scope>
+        </dependency>
+        <!--bootstrap配置-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-context</artifactId>
         </dependency>
     </dependencies>
 
