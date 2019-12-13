@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/qzr_service/pom.xml" />
         <option value="$PROJECT_DIR$/qzr_producer/pom.xml" />
         <option value="$PROJECT_DIR$/qzr_consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/config_client/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit_server/pom.xml" />
       </list>
     </option>
   </component>

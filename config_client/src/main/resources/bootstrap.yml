@@ -1,23 +1,24 @@
 server:
-  port: 9005
   tomcat:
     max-http-post-size: 8192
+
 spring:
-  application:
-    name: config-server
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/TonyRanGee/CloudConfig
+          uri: https://localhost:9005/CloudConfig
           search-paths: cloud-repo
           default-label: master
-          username: TonyRanGee
-          password: quzhaoran0421
+      discovery:
+        enabled: true
+        service-id: config-server
+  application:
+    name: config-client
+
 eureka:
   instance:
     instance-id: ${spring.cloud.client.ip-address}:${spring.application.instance_id:${server.port}}
-    prefer-ip-address: true
   client:
     service-url:
-      defaultZone: http://localhost:9000/eureka
+      defaultZone: http://localhost:9000/eureka/

@@ -1,10 +1,10 @@
-package com.qzr.qzr_config;
+package com.qzr.config_client;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class QzrConfigApplicationTests {
+class ConfigClientApplicationTests {
 
     @Test
     void contextLoads() {

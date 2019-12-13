@@ -1,13 +1,13 @@
-package com.qzr.qzr_config;
+package com.qzr.rabbit_server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class QzrConfigApplication {
+public class RabbitServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(QzrConfigApplication.class, args);
+        SpringApplication.run(RabbitServerApplication.class, args);
     }
 
 }
