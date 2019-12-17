@@ -46,10 +46,17 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.32</version>
         </dependency>
+        <!--json转换-->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.28</version>
+        </dependency>
+        <!--图片识别 test4j-->
+        <dependency>
+            <groupId>net.sourceforge.tess4j</groupId>
+            <artifactId>tess4j</artifactId>
+            <version>3.2.1</version>
         </dependency>
     </dependencies>
 

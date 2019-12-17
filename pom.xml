@@ -16,6 +16,7 @@
         <module>config_server</module>
         <module>qzr_common</module>
         <module>rabbit_server</module>
+        <module>config_client</module>
     </modules>
 
     <!--设置XML形式的格式配置-->

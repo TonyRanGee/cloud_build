@@ -12,8 +12,6 @@ spring:
           uri: https://github.com/TonyRanGee/CloudConfig
           search-paths: cloud-repo
           default-label: master
-          username: TonyRanGee
-          password: quzhaoran0421
 eureka:
   instance:
     instance-id: ${spring.cloud.client.ip-address}:${spring.application.instance_id:${server.port}}

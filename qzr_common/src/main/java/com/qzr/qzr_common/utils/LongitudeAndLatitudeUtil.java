@@ -11,10 +11,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 高德地图
+ * 百度地图
  * @author ranGee
  */
-public class LongitudeAndLatitudeUtils {
+public class LongitudeAndLatitudeUtil {
 
     public static  Map<String, BigDecimal> getLatAndLngByAddress(String addr){
         String address = "";

@@ -12,8 +12,8 @@ import java.util.Date;
 @Component
 @RabbitListener(queues = "hello")
 public class Consumer {
-    private Logger log = LoggerFactory.getLogger(this.getClass());
 
+    private Logger log = LoggerFactory.getLogger(this.getClass());
 
     public void process(String str){
        log.info("接受消息"+str);
