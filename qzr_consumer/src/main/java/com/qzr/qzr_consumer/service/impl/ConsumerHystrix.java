@@ -32,7 +32,6 @@ public class ConsumerHystrix implements ConsumerService {
     @Override
     public Map<String, Object> deptList() {
         Map map = new HashMap();
-        boolean result;
         String message="服务无法进行调用！";
         Object entity=null;
         map.put("result",false);

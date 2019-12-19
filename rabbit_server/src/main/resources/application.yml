@@ -1,13 +1,16 @@
+server:
+  port: 9007
 spring:
   rabbitmq:
     host: 127.0.0.1
     port: 5672
     username: guest
     password: guest
-    publisher-confirms: true #消息发送到交换机确认机制，是否确认回调
-    publisher-returns: true #消息发送到交换机确认机制，是否返回回调、
+    publisher-confirms: true
+    publisher-returns: true
     listener:
       simple:
-        acknowledge-mode: manual #采用手动应答
-        concurrency: 1 #指定指定最最小的消费者
-        max-concurrency: 20 #指定最大的消费者
+        acknowledge-mode: manual
+        concurrency: 1
+        max-concurrency: 20
+
