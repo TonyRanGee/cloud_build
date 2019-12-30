@@ -63,7 +63,7 @@ public class LongitudeAndLatitudeUtil {
     }
 
     public static void main(String[] args) {
-        Map<String, BigDecimal> decimalMap = getLatAndLngByAddress("北京市大兴区九龙山庄");
+        Map<String, BigDecimal> decimalMap = getLatAndLngByAddress("哈尔滨东方医院");
         System.out.println(decimalMap);
     }
 

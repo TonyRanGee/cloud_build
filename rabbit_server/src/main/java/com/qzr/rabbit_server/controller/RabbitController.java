@@ -19,7 +19,7 @@ public class RabbitController {
     @ResponseBody
     @RequestMapping("/rabbitmq/sendMsg")
     public String sendMsg(){
-        int msgNum = 100;
+        int msgNum =5;
         for(int i=0;i<msgNum;i++) {
             msgProducer.sendMsg("这是发送的第"+i+"条消息");
         }

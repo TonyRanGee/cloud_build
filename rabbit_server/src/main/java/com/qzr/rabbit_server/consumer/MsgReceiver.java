@@ -40,14 +40,5 @@ public class MsgReceiver {
             e.printStackTrace();
         }
     }
-
-
-    /*
-    最简单的消息消费功能
-    @RabbitHandler
-    public void process(String content) {
-        logger.info("接收处理队列A当中的消息： {}" , content);
-    }*/
-
 }
 
